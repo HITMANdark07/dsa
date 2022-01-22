@@ -2,7 +2,7 @@ gap method for sorting two sorted arrays in 0(1) space
 
 array with start and end
 
-gap = math.ceil((end-start)/2);
+gap = math.ceil((end-start)/2)
 while(gap=>1){
     pointer1 = start
     pointer2 = start + gap
